@@ -13,12 +13,12 @@ process.stdin.on('readable', function() {
             case '/sayhello':
                process.stdout.write('hello!\n');
                break;
-			case '/getOSinfo':
-			   OSinfo.getOSinfo();
-			   break;	
+            case '/getOSinfo':
+               OSinfo.getOSinfo();
+               break;    
             default:
                process.stderr.write('Wrong instruction!\n');
-		};
+        };
     }
 });
 
