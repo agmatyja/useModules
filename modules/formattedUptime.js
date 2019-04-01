@@ -1,4 +1,3 @@
-var os = require('os');
 
 function formattedUptime() {
 	var time = os.uptime();

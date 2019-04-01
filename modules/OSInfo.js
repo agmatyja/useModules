@@ -1,5 +1,4 @@
 var formattedUptime = require('../modules/formattedUptime');
-var OSinfo = require('../modules/OSInfo');
 var os = require('os');
 
 function getOSinfo() {
