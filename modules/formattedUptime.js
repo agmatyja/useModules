@@ -1,4 +1,4 @@
-
+var os = require('os');
 function formattedUptime() {
 	var time = os.uptime();
 	var hours = Math.floor(time / 3600);
